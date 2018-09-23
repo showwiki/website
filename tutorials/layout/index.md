@@ -59,10 +59,10 @@ summary: 本文详细的介绍了如何使用Flutter构建用户界面，然后�
 
 * 在工程根目录创建一个 `images` 文件夹.
 * 添加
- [`lake.jpg`](https://github.com/flutter/website/blob/master/_includes/code/layout/lakes/images/lake.jpg).
+ [`lake.jpg`](https://github.com/flutter/website/blob/master/src/_includes/code/layout/lakes/images/lake.jpg).
   (请注意，wget不能保存此二进制文件。)
 * 更新
-  [`pubspec.yaml`](https://raw.githubusercontent.com/flutter/website/master/_includes/code/layout/lakes/pubspec.yaml)
+  [`pubspec.yaml`](https://raw.githubusercontent.com/flutter/website/master/src/_includes/code/layout/lakes/pubspec.yaml)
   文件以包含 `assets` 标签. 这样才会使您的图片在代码中可用。
 
 <hr>
@@ -111,7 +111,7 @@ summary: 本文详细的介绍了如何使用Flutter构建用户界面，然后�
 <aside class="alert alert-info" markdown="1">
 **Note:**
 If you have problems, you can check your code against
-[`lib/main.dart`](https://raw.githubusercontent.com/flutter/website/master/_includes/code/layout/lakes/main.dart)
+[`lib/main.dart`](https://raw.githubusercontent.com/flutter/website/master/src/_includes/code/layout/lakes/main.dart)
 on GitHub.
 </aside>
 
@@ -333,9 +333,9 @@ body: new ListView(
 //...
 {% endprettify %}
 
-**Dart 代码:** [main.dart](https://raw.githubusercontent.com/flutter/website/master/_includes/code/layout/lakes/main.dart)<br>
-**Image:** [images](https://github.com/flutter/website/tree/master/_includes/code/layout/lakes/images)<br>
-**Pubspec:** [pubspec.yaml](https://raw.githubusercontent.com/flutter/website/master/_includes/code/layout/lakes/pubspec.yaml)
+**Dart 代码:** [main.dart](https://raw.githubusercontent.com/flutter/website/master/src/_includes/code/layout/lakes/main.dart)<br>
+**Image:** [images](https://github.com/flutter/website/tree/master/src/_includes/code/layout/lakes/images)<br>
+**Pubspec:** [pubspec.yaml](https://raw.githubusercontent.com/flutter/website/master/src/_includes/code/layout/lakes/pubspec.yaml)
 
 结束了！当您热重载应用程序时，就会看到和截图中相同界面。您可以参考 [给Flutter APP 添加交互](/tutorials/interactive/)来给您的应用添加交互。
 
@@ -531,8 +531,8 @@ class MyApp extends StatelessWidget {
 
 <img src="images/hello-world.png" style="border:1px solid black" alt="screenshot of a white background with grey 'Hello World' text.">
 
-**Dart 代码** (Material app): [main.dart](https://raw.githubusercontent.com/flutter/website/master/_includes/code/layout/hello-world/main.dart)<br>
-**Dart 代码** (仅使用标准Widget的app): [main.dart](https://raw.githubusercontent.com/flutter/website/master/_includes/code/layout/widgets-only/main.dart)
+**Dart 代码** (Material app): [main.dart](https://raw.githubusercontent.com/flutter/website/master/src/_includes/code/layout/hello-world/main.dart)<br>
+**Dart 代码** (仅使用标准Widget的app): [main.dart](https://raw.githubusercontent.com/flutter/website/master/src/_includes/code/layout/widgets-only/main.dart)
 
 <hr>
 
@@ -604,7 +604,7 @@ class MyApp extends StatelessWidget {
 
 <aside class="alert alert-info" markdown="1">
 **注意:** 将图片添加到项目时，需要更新pubspec文件才能访问它们 - 此示例使用`Image.asset`显示图像。
-有关更多信息，请参阅此示例的[pubspec.yaml](https://raw.githubusercontent.com/flutter/website/master/_includes/code/layout/row/pubspec.yaml)文件，
+有关更多信息，请参阅此示例的[pubspec.yaml](https://raw.githubusercontent.com/flutter/website/master/src/_includes/code/layout/row/pubspec.yaml)文件，
 或[在Flutter中添加资源和图像](/assets-and-images)。如果您使用的是网上的图片，则不需要执行此操作，使用`Image.network`即可。
 </aside>
 
@@ -619,9 +619,9 @@ class MyApp extends StatelessWidget {
 
 <center><img src="images/row-spaceevenly-visual.png" style="border:1px solid black" alt="a row showing 3 images spaced evenly in the row"></center>
 
-**Dart code:** [main.dart](https://raw.githubusercontent.com/flutter/website/master/_includes/code/layout/row/main.dart)<br>
-**Images:** [images](https://github.com/flutter/website/tree/master/_includes/code/layout/row/images)<br>
-**Pubspec:** [pubspec.yaml](https://raw.githubusercontent.com/flutter/website/master/_includes/code/layout/row/pubspec.yaml)
+**Dart code:** [main.dart](https://raw.githubusercontent.com/flutter/website/master/src/_includes/code/layout/row/main.dart)<br>
+**Images:** [images](https://github.com/flutter/website/tree/master/src/_includes/code/layout/row/images)<br>
+**Pubspec:** [pubspec.yaml](https://raw.githubusercontent.com/flutter/website/master/src/_includes/code/layout/row/pubspec.yaml)
 
 </div> </div>
 
@@ -632,9 +632,9 @@ class MyApp extends StatelessWidget {
 
 {% include includelines filename="code/layout/column/main.dart" start=40 count=8 %}
 
-**Dart code:** [main.dart](https://raw.githubusercontent.com/flutter/website/master/_includes/code/layout/column/main.dart)<br>
-**Images:** [images](https://github.com/flutter/website/tree/master/_includes/code/layout/column/images)<br>
-**Pubspec:** [pubspec.yaml](https://raw.githubusercontent.com/flutter/website/master/_includes/code/layout/column/pubspec.yaml)
+**Dart code:** [main.dart](https://raw.githubusercontent.com/flutter/website/master/src/_includes/code/layout/column/main.dart)<br>
+**Images:** [images](https://github.com/flutter/website/tree/master/src/_includes/code/layout/column/images)<br>
+**Pubspec:** [pubspec.yaml](https://raw.githubusercontent.com/flutter/website/master/src/_includes/code/layout/column/pubspec.yaml)
 
 </div> <div class="col-md-3" markdown="1">
 
@@ -669,9 +669,9 @@ class MyApp extends StatelessWidget {
 
 <img src="images/row-expanded-visual.png" style="border:1px solid black" alt="a row of 3 images with the middle image twice as wide as the others">
 
-**Dart code:** [main.dart](https://raw.githubusercontent.com/flutter/website/master/_includes/code/layout/row-expanded/main.dart)<br>
-**Images:** [images](https://github.com/flutter/website/tree/master/_includes/code/layout/row-expanded/images)<br>
-**Pubspec:** [pubspec.yaml](https://raw.githubusercontent.com/flutter/website/master/_includes/code/layout/row-expanded/pubspec.yaml)
+**Dart code:** [main.dart](https://raw.githubusercontent.com/flutter/website/master/src/_includes/code/layout/row-expanded/main.dart)<br>
+**Images:** [images](https://github.com/flutter/website/tree/master/src/_includes/code/layout/row-expanded/images)<br>
+**Pubspec:** [pubspec.yaml](https://raw.githubusercontent.com/flutter/website/master/src/_includes/code/layout/row-expanded/pubspec.yaml)
 
 </div> </div>
 
@@ -685,9 +685,9 @@ class MyApp extends StatelessWidget {
 
 <img src="images/row-expanded-2-visual.png" style="border:1px solid black" alt="a row of 3 images that are too wide, but each is constrained to take only 1/3 of the row's available space">
 
-**Dart code:** [main.dart](https://raw.githubusercontent.com/flutter/website/master/_includes/code/layout/row-expanded-2/main.dart)<br>
-**Images:** [images](https://github.com/flutter/website/tree/master/_includes/code/layout/row-expanded-2/images)<br>
-**Pubspec:** [pubspec.yaml](https://raw.githubusercontent.com/flutter/website/master/_includes/code/layout/row-expanded-2/pubspec.yaml)
+**Dart code:** [main.dart](https://raw.githubusercontent.com/flutter/website/master/src/_includes/code/layout/row-expanded-2/main.dart)<br>
+**Images:** [images](https://github.com/flutter/website/tree/master/src/_includes/code/layout/row-expanded-2/images)<br>
+**Pubspec:** [pubspec.yaml](https://raw.githubusercontent.com/flutter/website/master/src/_includes/code/layout/row-expanded-2/pubspec.yaml)
 
 </div> </div>
 
@@ -725,9 +725,9 @@ class _MyHomePageState extends State<MyHomePage> {
 
 <img src="images/packed.png" style="border:1px solid black" alt="a row of 5 stars, packed together in the middle of the row">
 
-**Dart code:** [main.dart](https://raw.githubusercontent.com/flutter/website/master/_includes/code/layout/packed/main.dart)<br>
+**Dart code:** [main.dart](https://raw.githubusercontent.com/flutter/website/master/src/_includes/code/layout/packed/main.dart)<br>
 **Icons:** [Icons class](https://docs.flutter.io/flutter/material/Icons-class.html)<br>
-**Pubspec:** [pubspec.yaml](https://raw.githubusercontent.com/flutter/website/master/_includes/code/layout/packed/pubspec.yaml)
+**Pubspec:** [pubspec.yaml](https://raw.githubusercontent.com/flutter/website/master/src/_includes/code/layout/packed/pubspec.yaml)
 
 </div> </div>
 
@@ -914,9 +914,9 @@ body: new Center(
 
 <div class="row"> <div class="col-md-3" markdown="1">
 
-**Dart code:** [main.dart](https://raw.githubusercontent.com/flutter/website/master/_includes/code/layout/pavlova/main.dart)<br>
-**Images:** [images](https://github.com/flutter/website/tree/master/_includes/code/layout/pavlova/images)<br>
-**Pubspec:** [pubspec.yaml](https://raw.githubusercontent.com/flutter/website/master/_includes/code/layout/pavlova/pubspec.yaml)
+**Dart code:** [main.dart](https://raw.githubusercontent.com/flutter/website/master/src/_includes/code/layout/pavlova/main.dart)<br>
+**Images:** [images](https://github.com/flutter/website/tree/master/src/_includes/code/layout/pavlova/images)<br>
+**Pubspec:** [pubspec.yaml](https://raw.githubusercontent.com/flutter/website/master/src/_includes/code/layout/pavlova/pubspec.yaml)
 
 </div> <div class="col-md-9" markdown="1">
 
@@ -988,9 +988,9 @@ Flutter拥有丰富的布局widget，但这里有一些最常用的布局widget�
 
 该布局中每个图像使用一个Container来添加一个圆形的灰色边框和边距。然后使用容器将列背景颜色更改为浅灰色。
 
-**Dart code:** [main.dart](https://raw.githubusercontent.com/flutter/website/master/_includes/code/layout/container/main.dart), snippet below<br>
-**Images:** [images](https://github.com/flutter/website/tree/master/_includes/code/layout/container/images)<br>
-**Pubspec:** [pubspec.yaml](https://raw.githubusercontent.com/flutter/website/master/_includes/code/layout/container/pubspec.yaml)
+**Dart code:** [main.dart](https://raw.githubusercontent.com/flutter/website/master/src/_includes/code/layout/container/main.dart), snippet below<br>
+**Images:** [images](https://github.com/flutter/website/tree/master/src/_includes/code/layout/container/images)<br>
+**Pubspec:** [pubspec.yaml](https://raw.githubusercontent.com/flutter/website/master/src/_includes/code/layout/container/pubspec.yaml)
 
 </div> <div class="col-md-6" markdown="1">
 
@@ -1039,7 +1039,7 @@ class _MyHomePageState extends State<MyHomePage> {
           ),
           // ...
           // [[highlight]]See the definition for the second row on GitHub:[[/highlight]]
-          // [[highlight]]https://raw.githubusercontent.com/flutter/website/master/_includes/code/layout/container/main.dart[[/highlight]]
+          // [[highlight]]https://raw.githubusercontent.com/flutter/website/master/src/_includes/code/layout/container/main.dart[[/highlight]]
         ],
       ),
     );
@@ -1079,9 +1079,9 @@ GridView提供了两个预制list，或者您可以构建自定义网格。当Gr
 <img src="images/gridview-extent.png" style="border:1px solid black" alt="a 3-column grid of photos">
 
 使用`GridView.extent` 创建最大宽度为150像素的网格<br>
-**Dart code:** [main.dart](https://raw.githubusercontent.com/flutter/website/master/_includes/code/layout/grid/main.dart), snippet below<br>
-**Images:** [images](https://github.com/flutter/website/tree/master/_includes/code/layout/grid/images)<br>
-**Pubspec:** [pubspec.yaml](https://raw.githubusercontent.com/flutter/website/master/_includes/code/layout/grid/pubspec.yaml)
+**Dart code:** [main.dart](https://raw.githubusercontent.com/flutter/website/master/src/_includes/code/layout/grid/main.dart), snippet below<br>
+**Images:** [images](https://github.com/flutter/website/tree/master/src/_includes/code/layout/grid/images)<br>
+**Pubspec:** [pubspec.yaml](https://raw.githubusercontent.com/flutter/website/master/src/_includes/code/layout/grid/pubspec.yaml)
 
 </div> <div class="col-md-6" markdown="1">
 
@@ -1156,9 +1156,9 @@ class _MyHomePageState extends State<MyHomePage> {
 
 使用ListView显示多个ListTile的业务列表。分隔线将剧院与餐厅分开<br>
 
-**Dart code:** [main.dart](https://raw.githubusercontent.com/flutter/website/master/_includes/code/layout/listview/main.dart), snippet below<br>
+**Dart code:** [main.dart](https://raw.githubusercontent.com/flutter/website/master/src/_includes/code/layout/listview/main.dart), snippet below<br>
 **Icons:** [Icons class](https://docs.flutter.io/flutter/material/Icons-class.html)<br>
-**Pubspec:** [pubspec.yaml](https://raw.githubusercontent.com/flutter/website/master/_includes/code/layout/listview/pubspec.yaml)
+**Pubspec:** [pubspec.yaml](https://raw.githubusercontent.com/flutter/website/master/src/_includes/code/layout/listview/pubspec.yaml)
 
 </div> <div class="col-md-6" markdown="1">
 
@@ -1194,7 +1194,7 @@ List<Widget> list = <Widget>[
   ),
   // ...
   // [[highlight]]See the rest of the column defined on GitHub:[[/highlight]]
-  // [[highlight]]https://raw.githubusercontent.com/flutter/website/master/_includes/code/layout/listview/main.dart[[/highlight]]
+  // [[highlight]]https://raw.githubusercontent.com/flutter/website/master/src/_includes/code/layout/listview/main.dart[[/highlight]]
 ];
 
 class _MyHomePageState extends State<MyHomePage> {
@@ -1232,9 +1232,9 @@ class _MyHomePageState extends State<MyHomePage> {
 <img src="images/stack.png" style="border:1px solid black" alt="a circular avatar containing the label 'Mia B' in the lower right portion of the circle">
 
 使用Stack叠加Container（在半透明的黑色背景上显示其文本），放置在Circle Avatar的顶部。Stack使用alignment属性和调整文本偏移。<br>
-**Dart code:** [main.dart](https://raw.githubusercontent.com/flutter/website/master/_includes/code/layout/stack/main.dart), snippet below<br>
-**Image:** [images](https://github.com/flutter/website/tree/master/_includes/code/layout/stack/images)<br>
-**Pubspec:** [pubspec.yaml](https://raw.githubusercontent.com/flutter/website/master/_includes/code/layout/stack/pubspec.yaml)
+**Dart code:** [main.dart](https://raw.githubusercontent.com/flutter/website/master/src/_includes/code/layout/stack/main.dart), snippet below<br>
+**Image:** [images](https://github.com/flutter/website/tree/master/src/_includes/code/layout/stack/images)<br>
+**Pubspec:** [pubspec.yaml](https://raw.githubusercontent.com/flutter/website/master/src/_includes/code/layout/stack/pubspec.yaml)
 
 
 </div> <div class="col-md-6" markdown="1">
@@ -1306,9 +1306,9 @@ Material Components 库中的Card包含相关内容块，可以由大多数类�
 
 <img src="images/card.png" style="border:1px solid black" alt="a Card containing 3 ListTiles">
 包含3个ListTiles并通过用SizedBox包装进行大小调整的Card。分隔线分隔第一个和第二个ListTiles。<br>
-**Dart code:** [main.dart](https://raw.githubusercontent.com/flutter/website/master/_includes/code/layout/card/main.dart), snippet below<br>
+**Dart code:** [main.dart](https://raw.githubusercontent.com/flutter/website/master/src/_includes/code/layout/card/main.dart), snippet below<br>
 **Icons:** [Icons class](https://docs.flutter.io/flutter/material/Icons-class.html)<br>
-**Pubspec:** [pubspec.yaml](https://raw.githubusercontent.com/flutter/website/master/_includes/code/layout/card/pubspec.yaml)
+**Pubspec:** [pubspec.yaml](https://raw.githubusercontent.com/flutter/website/master/src/_includes/code/layout/card/pubspec.yaml)
 
 </div> <div class="col-md-6" markdown="1">
 
